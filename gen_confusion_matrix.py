@@ -6,7 +6,7 @@ This version parses the fn_Positive, fp_Positive, tn_Positive, tp_Positive colum
 to compute aggregate counts and ensures accurate metric calculations.
 
 Usage:
-    python build_confusion_matrix_modified.py <file_path>
+    python gen_confusion_matrix.py <excel_file_path>
 
 Notes:
 - Input Excel must include "fn_Positive", "fp_Positive", "tn_Positive", "tp_Positive" columns with newline-separated terms.
@@ -345,3 +345,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
