@@ -1,0 +1,49 @@
+{
+  "gemini_model": "gemini-2.0-flash-001",
+  "intermediate_output_file": "Radiology_Classification_Output.xlsx",
+  "terms": [
+    "perihilar_infiltrate",
+    "pneumonia",
+    "bronchitis",
+    "interstitial",
+    "diseased_lungs",
+    "hypo_plastic_trachea",
+    "cardiomegaly",
+    "pulmonary_nodules",
+    "pleural_effusion",
+    "rtm",
+    "focal_caudodorsal_lung",
+    "focal_perihilar",
+    "pulmonary_hypoinflation",
+    "right_sided_cardiomegaly",
+    "pericardial_effusion",
+    "bronchiectasis",
+    "pulmonary_vessel_enlargement",
+    "left_sided_cardiomegaly",
+    "thoracic_lymphadenopathy",
+    "esophagitis",
+    "vhs_v2"
+  ],
+  "required_input_cols": [
+    "CaseID",
+    "Link to AI report",
+    "Link to Rad report",
+    "Findings (original radiologist report)",
+    "Findings (AI report)"
+  ],
+  "required_output_cols": [
+    "condition",
+    "tp_Positive",
+    "fn_Positive",
+    "tn_Positive",
+    "fp_Positive",
+    "Sensitivity",
+    "Specificity",
+    "Check",
+    "Positive Ground Truth",
+    "Negative Ground Truth",
+    "Ground Truth Check",
+    "",
+    "Radiologist Agreement Rate"
+  ]
+}
